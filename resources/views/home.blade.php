@@ -11,7 +11,7 @@
 <body>
     <dir class="container">
         <div class="mt-5">
-            <x-alert type='success' :session="session('login_success')"/>
+            <x-alert type='success' :session="session('success')"/>
 
             <h3>プロフィール</h3>
             <ul>

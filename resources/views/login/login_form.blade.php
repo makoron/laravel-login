@@ -20,9 +20,7 @@
         </ul>
     @endforeach
 
-    <x-alert type='danger' :session="session('login_error')"/>
-
-    <x-alert type='danger' :session="session('logout')"/>
+    <x-alert type='danger' :session="session('danger')"/>
 
     <label for="inputEmail" class="sr-only">Email address</label>
     <input type="email" id="inputEmail" name="email" class="form-control"
